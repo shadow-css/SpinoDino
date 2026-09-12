@@ -32,9 +32,9 @@ color: #dbdbdb; } }
 width: 7px;
 height: 7px; }
 ::-webkit-scrollbar-track {
-background: #241d1a;}
+background: #706c24;}
 ::-webkit-scrollbar-thumb {
-background: #000000; } 
+background: #bfbb83; } 
  
 /* HEADERS - Can remove the H1 “Before” if they don’t want a den title, H3 is the default text */
 
