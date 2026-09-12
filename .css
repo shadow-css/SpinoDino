@@ -1,0 +1,795 @@
+/* ======================== Parts of this CSS Template have been adapted from the following users below, but I have changed the code quite a bit since theirs was outdated in certain parts!!! ========================  
+
+DO NOT. REMOVE THE CREDIT.
+
+Majority of edits and tweaks have been made by Shadow #591622, This has become a template that has a slightly different style to Katie and Jester, thus it’s under my Lioden Tag and not theirs! I’m not going to mark what I changed/edited. But it was a lot considering the old formats were OUTDATED and codes that they added no longer work.
+
+ORIGINAL Template made by katie (#106445) and jester (#187561), please check their Template for the full list of users as there are many. */
+
+/* FONTS */
+body {font-family: Verdana;}
+ 
+.topbar {font-family: Verdana;}
+ 
+.navbar {font-family: Verdana;}
+
+/* BACKGROUNDS */ 
+@media screen and (min-width: 601px) { 
+body {
+background: url('https://images.pexels.com/photos/29865226/pexels-photo-29865226.jpeg') center center / cover no-repeat fixed;
+background-size: 100%;
+background-size: cover;
+color: #dbdbdb; } }
+
+@media screen and (max-width: 600px){
+body {
+background: url('https://images.pexels.com/photos/29865226/pexels-photo-29865226.jpeg') center center / cover no-repeat fixed;
+background-size: cover;
+color: #dbdbdb; } }
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+width: 7px;
+height: 7px; }
+::-webkit-scrollbar-track {
+background: #241d1a;}
+::-webkit-scrollbar-thumb {
+background: #000000; } 
+ 
+/* HEADERS - Can remove the H1 “Before” if they don’t want a den title, H3 is the default text */
+
+h1 {
+color: transparent !important;
+font-size: 0px !important;
+text-align: center !important;
+position: relative !important;}
+
+h1::before {
+content: "Corvian’s Den" !important;
+color: #061d00
+font-family: Verdana, serif !important;
+font-size: 45px !important;
+font-weight: 900 !important;
+letter-spacing: -0.5px !important;
+
+background: linear-gradient(180deg, #061d00 0%, #A7CC23 100%) !important;
+-webkit-background-clip: text !important;
+background-clip: text !important;
+-webkit-text-fill-color: transparent !important;
+-webkit-text-stroke: 1px #1e1916 !important;
+filter: drop-shadow(1px 5px 2px rgba(0, 0, 0, 0.9)) !important;
+
+}
+
+h2 {
+color: #c6d2a4 !important;
+font-size: 24px;}
+
+h3 {
+color: #c6d2a4 !important;
+font-size: 18px;}
+
+/* LINKS - Every Link on the page.*/
+
+a:link,
+a:visited {
+color: #c6d2a4 !important;
+background: none !important; }
+   
+a:hover {
+color: #4c4d1a !important; }
+
+/* Beetle Glow! */
+img[src*="beetle"], img[src*="gb.png"], img[src*="sb.png"] {
+ filter: drop-shadow(0px 0px 4px #ffd700) !important;
+ transition: transform 0.2s ease !important;
+}
+
+/* --- Mound Box Glow --- */
+.mound-grid img {
+ filter: drop-shadow(0px 0px 5px #9ab56c) !important;
+ transition: transform 0.2s ease !important;
+}
+
+/* MAIN PANEL - The big gray stripe in the center in front of the background. */ 
+.container.main {
+background: rgba(53, 54, 27, .8);
+border: none;
+box-shadow: none;
+border-radius: 5px; }
+.col-md-9 {
+background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+.topbar {
+background: #000000 !important; 
+background: linear-gradient(180deg, #061d00 0%, #A7CC23 100%) !important; 
+color: #ffffff !important; 
+border: none;
+border-radius: 9px;
+overflow: hidden;
+}
+ 
+.navbar {
+background: linear-gradient(180deg, #061d00 0%, #A7CC23 100%) !important;
+color: #c2c5a0 !important;
+border: none;
+border-radius: 12px;
+overflow: hidden;
+}
+
+.navbar li a:hover {
+background: linear-gradient(180deg, #061d00 0%, #A7CC23 100%) !important;
+color: #3b4103 !important; 
+border-radius: 8px;
+}
+
+/* Mobile Fixes */
+.navbar-toggle {
+border: none !important;
+background: linear-gradient(90deg, #061d00 0%, #A7CC23 100%) !important;
+}
+
+.navbar-collapse {
+box-shadow: none !important;
+border-top: none !important;
+}
+
+/* BOOKMARK BAR */
+.breadcrumb {
+background: linear-gradient(180deg, #061d00 0%, #A7CC23 100%) !important;
+color: #c2c5a0 !important;
+border: none !important;
+border-radius: 9px !important;} 
+.breadcrumb .active {
+color: #c2c5a0; }
+
+/* ALERTS (I don’t touch these) */
+.alert, .alert-success, .alert-info {
+ background: #739665 !important;
+ border: 1px solid #HEX !important;
+ border-radius: 6px !important;
+ padding: 12px 20px !important;
+ color: #HEX !important;
+}
+.alert a, .alert-success a, .alert-info a {
+ color: #aa2a9c !important;
+ text-decoration: underline !important;
+ font-weight: bold !important;
+}
+.alert a:hover, .alert-success a:hover, .alert-info a:hover {
+ color: #c709ff !important;
+}
+
+.alert-danger, .alert-warning {
+ background: #701515 !important;
+ border: 1px solid #950000 !important;
+ border-radius: 6px !important;
+ padding: 12px 20px !important;
+ color: #ff1f1f !important;
+}
+.alert-danger a, .alert-warning a {
+ color: #ce39be !important; 
+ text-decoration: underline !important;
+ font-weight: bold !important;
+}
+.alert-danger a:hover, .alert-warning a:hover {
+ color: #c709ff !important;
+}
+
+
+/*COMMENT BOX - The actual Box color */
+
+
+div#commentBox {
+background: linear-gradient(180deg, #061d00 0%, #A7CC23 100%) !important;
+border: none !important;
+border-radius: 9px !important;
+position: relative !important;
+padding-top: 40px !important;
+}
+
+div#commentBox > b, div#commentBox > strong {
+ display: none !important;
+}
+
+/* COMMENT BOX + CUSTOM GREETING */
+div#commentBox {
+background: linear-gradient(90deg, #061d00 0%, #A7CC23 100%) !important;
+border: none !important;
+border-radius: 9px !important;
+position: relative !important;
+padding-top: 40px !important;
+}
+
+div#commentBox > b, div#commentBox > strong {
+display: none !important;
+}
+
+div#commentBox::before {
+content: "Beware the riverbank... Something stirs in the depths." !important; 
+position: absolute !important;
+top: 8px !important;
+left: 0px !important;
+width: 100% !important;
+font-family: Cinzel; serif !important; 
+font-size: 18px !important;   
+font-weight: normal !important;   
+letter-spacing: 0.5px !important;
+text-align: center !important;
+color: #FFF9E6 !important;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9) !important; 
+display: block !important;
+}
+
+.comment {  
+background: linear-gradient(180deg, #647f26 0%, #263e15 100%) !important;
+border: none !important;
+border-bottom: none !important;
+border-radius: 0px !important;
+color: #c9acff !important;
+text-align: left !important;
+}
+
+.comment:nth-child(even) {  
+background: linear-gradient(180deg, #496104 0%, #4d4c00 100%) !important;
+}
+
+.text-muted {
+color: #b69fcf !important; 
+}
+
+button, input[type="submit"], .btn-primary {
+background: linear-gradient(180deg, #061d00 0%, #A7CC23 100%) !important;
+color: #c2c5a0 !important;
+border: 1px solid #230733 !important;
+border-radius: 6px !important;
+}
+
+table#player.table hr {
+display: none !important; 
+}
+
+table#player.table div.xlarge { 
+margin-top: 10px !important; 
+}
+
+
+
+
+/* SIDE PANELS */ 
+.panel {
+background: linear-gradient(180deg, #061d00 0%, #A7CC23 100%) !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+box-shadow: none !important;  }
+
+/* PROGRESS BARS */
+
+.progress-bar {
+background: linear-gradient(90deg, #061d00 0%, #A7CC23  100%) !important;
+border-radius: 0px !important; }
+
+.progress-bar-warning { 
+background: #HEX !important;
+color: #HEX !important;}
+.progress-bar-danger { 
+background: #HEX !important;
+color: #HEX !important;}
+.progress-bar-success { 
+background: #HEX !important;
+color: #HEX !important;}
+
+.progress div {
+color: #222303 !important; }
+
+/* PROGRESS BAR BACKGROUND */
+.progress {
+background:  #c2cb9b;
+color: #HEX !important;
+border-radius: 8px !important;  }
+
+/* CHAT (This was SO difficult sobs cuz all templates were outdated) */
+
+#fraSidebarChat {
+background: #c6d2a4 !important;
+border: 1px solid #230733 !important;
+border-radius: 9px !important;
+overflow: visible !important;
+}
+#fraSidebarChat h3,
+#fraSidebarChat h3 a {
+color: #981be4 !important;
+font-family: Arial, Helvetica, sans-serif !important;
+font-weight: bold !important;
+}
+#fraSidebarChat iframe {
+background: #2e470c !important;
+border: none !important;
+}
+#fraSidebarChat select {
+background: #FFF9E6 !important;
+color: #2e470c !important;
+border: 1px solid #230733 !important;
+border-radius: 4px !important;
+}
+#fraSidebarChat button,
+#fraSidebarChat .btn,
+#btnChatSettings,
+#btnLoadNewMessages,
+.s-chat-message_menu {
+background: #230733 !important;
+color: #FFF9E6 !important;
+border: none !important;
+border-radius: 4px !important;
+}
+#chatMessageList .s-chat-message:nth-child(odd),
+.s-chat-message:nth-child(odd) {
+background: linear-gradient(180deg, #647f26 0%, #263e15 100%) !important;
+color: #ffffff !important;
+border: 1px solid #230733 !important;
+}
+#chatMessageList .s-chat-message:nth-child(even),
+.s-chat-message:nth-child(even) {
+background: linear-gradient(180deg, #496104 0%, #4d4c00 100%) !important;
+color: #ffffff !important;
+border: 1px solid #230733 !important;
+}
+#chatMessageList {
+background: #222303 !important;
+}
+
+#btnChatSettings::before {
+content: "⚙" !important;
+color: #FFF9E6 !important;
+font-size: 16px !important;
+width: 17px !important;
+height: 16px !important;
+line-height: 16px !important;
+display: inline-block !important;
+transform: none !important;
+}
+#btnLoadNewMessages::before {
+content: "⟳" !important;
+color: #FFF9E6 !important;
+font-size: 16px !important;
+width: 17px !important;
+height: 16px !important;
+line-height: 16px !important;
+margin-top: 4px !important;
+margin-left: -3px !important;
+display: inline-block !important;
+transform: none !important;
+}
+.s-chat-message_menu::before {
+content: "•••" !important;
+color: #FFF9E6 !important;
+font-family: Arial, sans-serif !important;
+font-size: 9px !important;
+letter-spacing: 0.5px !important;
+width: 18px !important;
+height: 7px !important;
+line-height: 9px !important;
+display: inline-block !important;
+transform: none !important;
+}
+#btnChatSettings,
+.s-chat-message_menu {
+display: inline-flex !important;
+align-items: center !important;
+justify-content: center !important;
+text-align: center !important;
+transform: none !important;
+padding: 0 !important;
+}
+#btnChatSettings i,
+.s-chat-message_menu i,
+#btnChatSettings .fa,
+.s-chat-message_menu .fa,
+#fraSidebarChat button i,
+#fraSidebarChat button .fa,
+#btnLoadNewMessages i {
+display: none !important;
+}
+
+div#lblCharacterCounter {
+color: #c6d2a4 !important; }
+
+html.nolayout {
+background: none !important; }
+
+ 
+/* KING DYNASTY/FEATURED/ETC. */
+
+.feature {
+background: linear-gradient(180deg, #061d00 0%, #A7CC23 100%) !important;
+color: #c2c5a0 !important;
+border: 3px double #ffffff !important;
+border-radius: 0px !important;
+}
+
+/* DYNASTY */
+div.left {
+background: linear-gradient(180deg, #496104 0%, #4d4c00 100%) !important;
+color: #c2c5a0 !important;
+border: none !important;
+border-radius: 0px !important;
+}
+
+.xsmall {
+font-size: 14px !important;
+}
+ 
+/* KING PROFILE - Top: King’s Name/Title Bar .inner-table .left: Info about Den (Territory/Stats)
+.inner-table .right: Text next to King’s Info */
+
+.table {
+background: linear-gradient(180deg, #244005 0%, #68613d 100%) !important;
+border: none !important;
+border-collapse: separate;
+border-radius: 9px; }
+
+.top, .bottom, th {
+background: linear-gradient(180deg, #061d00 0%, #45400d 100%) !important;
+color: #c2c5a0 !important;
+border: none !important;
+border-radius: 9px !important; }
+
+.table .left {
+background: linear-gradient(180deg, #242e00 0%, #556826 100%) !important;
+border-radius: 9px !important; }
+
+.inner-table .left {
+background: #HEX !important;
+border-radius: 5px !important;  }
+
+.inner-table .right {
+background: #45400d !important;
+border-radius: 5px !important; 
+color: #c2c5a0 !important; } 
+
+.right_odd {
+background: none !important; }
+
+/* CUSTOM KING TITLE
+Codes made by Pandora #144118  
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+
+note: you can use both, one, or the other.
+if you don't want to use them, just delete this section.
+just don't use apostraphes (') in the actual text, that messes with the code
+*/
+ 
+/* CUSTOM KING TITLE - AFTER 
+If I want to make the text before the King’s name just change: div::before */
+ 
+#about > tbody > tr:nth-child(1) > td > div::after {
+ content:', The River Tyrant';
+ font-size:17px;  
+}
+
+/* DEN ICON IMAGE REPLACEMENTS - Changes icons for Message/Gift/Trade/Wishlist/ViewTrades etc. */
+
+
+img[src$="icon_den_message.png"] {
+content: url('https://i.postimg.cc/C1qypf7k/image.png') !important;
+width: 28px !important; }
+
+img[src$="icon_den_gift.png"] {
+content: url('https://i.postimg.cc/C1qypf7k/image.png') !important;
+width: 28px !important; }
+
+img[src$="icon_den_trade.png"] {
+content: url('https://i.postimg.cc/C1qypf7k/image.png') !important;
+width: 28px !important; }
+
+img[src$="icon_den_wishlist.png"] {
+content: url('https://i.postimg.cc/C1qypf7k/image.png') !important;
+width: 28px !important; }
+
+img[src$="icon_den_viewtrade.png"] {
+content: url('https://i.postimg.cc/C1qypf7k/image.png') !important;
+width: 28px !important; }
+
+img[src$="icon_den_gift.png"] {
+content: url('https://i.postimg.cc/C1qypf7k/image.png') !important;
+width: 28px !important; }
+
+img[src$="icon_den_block.png"] {
+content: url('https://i.postimg.cc/C1qypf7k/image.png') !important;
+width: 28px !important; }
+
+img[src$="icon_den_friend.png"] {
+content: url('https://i.postimg.cc/C1qypf7k/image.png') !important;
+width: 28px !important; }
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+opacity: 1.0;
+border-radius: 50%;
+overflow: hidden; }   
+table#player img {
+opacity: 1.0;
+border-radius: 50%; }
+
+/* LIODEN LOGO REPLACER */
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+ display: none !important;
+}
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a {
+ position: relative !important;
+ z-index: 999999 !important;
+ display: inline-block !important;
+}
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+ content: "" !important;
+ position: absolute !important;
+ top: -15px !important;
+ left: 4px !important; 
+ z-index: 999999 !important; 
+ width: 190px !important;   
+ height: 140px !important;  
+ background-image: url('https://i.postimg.cc/BnV2P859/image.png') !important;
+ background-size: contain !important;
+ background-repeat: no-repeat !important;
+ background-position: center !important;
+}
+
+.navbar, .navbar-header, .container.main, nav {
+ overflow: visible !important;
+}
+
+.navbar-nav {
+ padding-left: 95px !important;
+}
+
+/* PAGEDOLLS - Super important! */
+.container.main::after {
+content: "" !important;
+background-image: url('IMG HERE') !important;
+background-size: contain !important;
+background-repeat: no-repeat !important;
+position: fixed !important;
+display: block !important;
+width: 250px !important;
+height: 250px !important;
+right: 20px !important;
+bottom: 10px !important;
+z-index: 100 !important;
+pointer-events: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+.container.main::after {
+width: 150px !important;
+height: 150px !important;
+right: 5px !important;
+bottom: 5px !important;
+}
+}
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button,
+a.btn.btn-default.button {
+background: linear-gradient(180deg, #4c4d1a 0%, #6f7022 100%) !important;
+border: none !important;
+border-radius: 4px !important;
+color: #FFF9E6 !important;
+text-shadow: none !important;
+}
+
+/* FIXED THE STUPID ENERGY BAR! */
+form:has(input[name="freeEnergyBoost"]) {
+display: block !important;
+width: 100% !important;
+box-sizing: border-box !important;
+}
+
+form:has(input[name="freeEnergyBoost"]) .panel.panel-default {
+max-width: 100% !important;
+box-sizing: border-box !important;
+overflow: hidden !important;
+}
+
+form:has(input[name="freeEnergyBoost"]) input[type="submit"] {
+max-width: 100% !important;
+box-sizing: border-box !important;
+white-space: nowrap !important;
+}
+
+input[name="freeEnergyBoost"] {
+font-size: 13px !important;
+font-family: Ariel, sans-serif !important;
+}
+
+ 
+ /* CAVE IMAGES - If I want to do images separate add into img */
+.cave-grid,
+.mound-grid {
+background: #2a2601 !important;
+color: #76792a !important;
+border: none !important;
+border-radius: 10px !important; }
+
+.cave-grid:has(img[src*="banner"]) img,
+img[src*="overviewbanner.png"],
+img[src*="nestingbanner.png"],
+img[src*="unsortedlionsbanner.png"] {
+ height: 60px !important;
+}
+
+/* Making Cave and Beetle Images brighten upon hover */
+a:hover, a:active, 
+.feature:hover, .panel:hover, .cave-grid:hover,
+input:hover, select:hover, textarea:hover {
+ filter: brightness(130%) !important;
+ transition: filter 0.2s ease !important;
+}
+
+img[src*="beetle"]:hover, img[src*="gb.png"]:hover, img[src*="sb.png"]:hover {
+ transform: scale(1.2) !important;
+} 
+
+/* Here’s where the images start */
+div.cave-grid>img {
+content: url('https://imagerenderer.com/images/rendered/default/print/8/5/break/images/artworkimages/medium/2/spinosaurus-daniel-eskridge.jpg')!important;
+object-fit: cover !important;
+object-position: center 20% !important;
+width: 100% !important;
+height: 120px !important;
+}
+
+div.mound-grid>img {
+content: url('https://preview.redd.it/here-is-a-spinosaurus-i-finished-painting-yesterday-i-hope-v0-il3wblgg58571.jpg?width=1080&crop=smart&auto=webp&s=95888db4807f9e0a551542ef066986ea95f6d642')!important;
+object-fit: cover !important;
+object-position: center 100% !important;
+width: 150px !important;
+height: 80px !important;
+}
+
+
+a[href="cave.php?id=395185"] div.cave-grid>img {
+content: url('https://imagerenderer.com/images/rendered/default/print/8/5/break/images/artworkimages/medium/2/spinosaurus-daniel-eskridge.jpg')!important;
+object-fit: cover !important;
+object-position: center 20% !important;
+width: 100% !important;
+height: 120px !important;
+}
+
+a[href="cave.php?id=317926"] div.cave-grid>img {
+content: url('https://imagerenderer.com/images/rendered/default/print/8/5/break/images/artworkimages/medium/2/spinosaurus-daniel-eskridge.jpg')!important;
+object-fit: cover !important;
+object-position: center 20% !important;
+width: 100% !important;
+height: 120px !important;
+}
+
+a[href="cave.php?id=193201"] div.cave-grid>img {
+content: url('https://cdna.artstation.com/p/assets/images/images/069/117/140/large/waliche-paleoart-oxalaia.jpg?1699379832')!important;
+object-fit: cover !important;
+object-position: center 20% !important;
+width: 100% !important;
+height: 120px !important;
+}
+
+a[href="cave.php?id=227512"] div.cave-grid>img {
+content: url('https://cdnb.artstation.com/p/assets/images/images/056/570/659/large/victor-sales-oxalaia-quilombensis.jpg?1669592613')!important;
+object-fit: cover !important;
+object-position: center 20% !important;
+width: 100% !important;
+height: 120px !important;
+}
+
+a[href="cave.php?id=193201"] div.cave-grid>img {
+content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b69e1247-3017-498d-8592-5393b6421502/djn7afd-33d46dd6-bba4-4dca-8de8-b0b5e062ad29.png/v1/fill/w_1111,h_719,q_70,strp/spinosaurus_2025_by_ember_newcomer_djn7afd-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI0MyIsInBhdGgiOiIvZi9iNjllMTI0Ny0zMDE3LTQ5OGQtODU5Mi01MzkzYjY0MjE1MDIvZGpuN2FmZC0zM2Q0NmRkNi1iYmE0LTRkY2EtOGRlOC1iMGI1ZTA2MmFkMjkucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.M2baeOpnDHl3Ay_RePFYkmZkU14ZjMGo-OZ-G85aTds')!important;
+object-fit: cover !important;
+object-position: center 20% !important;
+width: 100% !important;
+height: 120px !important;
+}
+
+/* Codes here were originally made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+But I replaced the animation and keyframesPulse myself. By Shadow.
+Credit may not be removed! */
+
+
+/* MEMBER ONLINE */
+.member-online {
+ display: inline-block;
+ box-sizing: border-box;
+ content: url('https://i.postimg.cc/vZmJhKJZ/image.png');
+ width: 18px !important;
+ height: 18px !important;
+ animation: Pulse 2.5s infinite ease-in-out; }
+	
+/* MEMBER OFFLINE */
+.member-offline {
+ display: inline-block;
+ box-sizing: border-box;
+ content: url('https://i.postimg.cc/vZmJhKJZ/image.png');
+ width: 18px !important;
+ height: 18px !important;
+ opacity: 0.5;
+}
+
+@keyframes Pulse {
+ 0% {
+ transform: scale(1);
+ filter: drop-shadow(0 0 0px rgba(255, 255, 255, 0));
+ }
+ 50% {
+ transform: scale(1.13); /* Subtle grow */
+ filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.8));
+ }
+ 100% {
+ transform: scale(1);
+ filter: drop-shadow(0 0 0px rgba(255, 255, 255, 0));
+ }
+}
+
+/* CREDITS */
+
+.breadcrumb::before {
+ content: "CSS by Shadow #591622" !important;
+ color: #6c26ff !important;
+ font-size: 12px !important;
+ font-weight: bold !important;
+ position: absolute !important;
+ right: 135px !important;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+ .breadcrumb::after {
+  right: 20%;
+ }
+ }
+
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+ .breadcrumb::after {
+  right: 20%;
+ }
+ }
+
+@media only screen and (max-width: 767px) {
+ .breadcrumb::after {
+ right: 22%;
+ }
+
+/* Mobile Move Fix */
+
+@media only screen and (max-width: 767px) {
+ .breadcrumb::after {
+ right: 22%;
+}
+
+.navbar .navbar-collapse,
+.navbar .navbar-nav,
+.navbar .nav {
+padding: 0 0 10px 0 !important;
+margin: 0 !important;
+text-align: left !important;
+}
+
+.navbar-collapse ul {
+padding-left: 0 !important;
+margin-left: 0 !important;
+text-align: left !important;
+}
+
+.navbar .navbar-nav li,
+.navbar .navbar-nav li a,
+.navbar .nav li,
+.navbar .nav li a {
+text-align: left !important;
+padding-left: 15px !important;
+margin-left: 0 !important;
+display: block !important;
+width: 100% !important;
+}
+}
