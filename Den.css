@@ -7,11 +7,11 @@ Majority of edits and tweaks have been made by Shadow #591622, This has become a
 ORIGINAL Template made by katie (#106445) and jester (#187561), please check their Template for the full list of users as there are many. */
 
 /* FONTS */
-body {font-family: Verdana;}
+body {font-family: Cinzel;}
  
-.topbar {font-family: Verdana;}
+.topbar {font-family: Cinzel;}
  
-.navbar {font-family: Verdana;}
+.navbar {font-family: Cinzel;}
 
 /* BACKGROUNDS */ 
 @media screen and (min-width: 601px) { 
@@ -640,30 +640,30 @@ img[src*="beetle"]:hover, img[src*="gb.png"]:hover, img[src*="sb.png"]:hover {
 div.cave-grid>img {
 content: url('https://imagerenderer.com/images/rendered/default/print/8/5/break/images/artworkimages/medium/2/spinosaurus-daniel-eskridge.jpg')!important;
 object-fit: cover !important;
-object-position: center 55% !important;
+object-position: center 60% !important;
 width: 100% !important;
 height: 120px !important;
 }
 
 div.mound-grid>img {
-content: url('https://preview.redd.it/here-is-a-spinosaurus-i-finished-painting-yesterday-i-hope-v0-il3wblgg58571.jpg?width=1080&crop=smart&auto=webp&s=95888db4807f9e0a551542ef066986ea95f6d642')!important;
+content: url('https://i.postimg.cc/4xCqtPvz/image.png')!important;
 object-fit: cover !important;
-object-position: center 100% !important;
+object-position: center 50% !important;
 width: 150px !important;
-height: 60px !important;
+height: 70px !important;
 }
 
 
 a[href="cave.php?id=395185"] div.cave-grid>img {
-content: url('https://imagerenderer.com/images/rendered/default/print/8/5/break/images/artworkimages/medium/2/spinosaurus-daniel-eskridge.jpg')!important;
+content: url('https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-6/498316872_2212065282578454_3661884795625726759_n.jpg?stp=dst-jpg_tt6&cstp=mx800x450&ctp=s800x450&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=3JPY1g0jXesQ7kNvwHq8rKo&_nc_oc=AdoVOKr49s_aKK_C7-PmyWFmFZpIU1cFuM-peQbypTVoSwbbwPiFh4Qy8SAGb2MIpG4&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=Fk_kd264C08-oOSTokLAsw&_nc_ss=7b289&oh=00_AQK9tXjYNHfwEQlzR1c9riF5UVVOW_9T4n78YXbdEL6M5w&oe=6AABA958')!important;
 object-fit: cover !important;
-object-position: center 20% !important;
+object-position: center 1% !important;
 width: 100% !important;
 height: 100px !important;
 }
 
 a[href="cave.php?id=317926"] div.cave-grid>img {
-content: url('https://imagerenderer.com/images/rendered/default/print/8/5/break/images/artworkimages/medium/2/spinosaurus-daniel-eskridge.jpg')!important;
+content: url('https://cdna.artstation.com/p/assets/images/images/069/117/140/large/waliche-paleoart-oxalaia.jpg?1699379832')!important;
 object-fit: cover !important;
 object-position: center 1% !important;
 width: 100% !important;
@@ -671,25 +671,25 @@ height: 100px !important;
 }
 
 a[href="cave.php?id=193201"] div.cave-grid>img {
-content: url('https://cdna.artstation.com/p/assets/images/images/069/117/140/large/waliche-paleoart-oxalaia.jpg?1699379832')!important;
+content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b69e1247-3017-498d-8592-5393b6421502/djn7afd-33d46dd6-bba4-4dca-8de8-b0b5e062ad29.png/v1/fill/w_1111,h_719,q_70,strp/spinosaurus_2025_by_ember_newcomer_djn7afd-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI0MyIsInBhdGgiOiIvZi9iNjllMTI0Ny0zMDE3LTQ5OGQtODU5Mi01MzkzYjY0MjE1MDIvZGpuN2FmZC0zM2Q0NmRkNi1iYmE0LTRkY2EtOGRlOC1iMGI1ZTA2MmFkMjkucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.M2baeOpnDHl3Ay_RePFYkmZkU14ZjMGo-OZ-G85aTds')!important;
 object-fit: cover !important;
-object-position: center 20% !important;
+object-position: center 5% !important;
 width: 100% !important;
 height: 100px !important;
 }
 
 a[href="cave.php?id=227512"] div.cave-grid>img {
-content: url('https://cdnb.artstation.com/p/assets/images/images/056/570/659/large/victor-sales-oxalaia-quilombensis.jpg?1669592613')!important;
+content: url('https://64.media.tumblr.com/7aa6b81d45f7c19af76fcd1d6ecf8cc3/tumblr_plbilwrTJF1sjc827o2_500.jpg')!important;
 object-fit: cover !important;
-object-position: center 20% !important;
+object-position: center 50% !important;
 width: 100% !important;
 height: 100px !important;
 }
 
-a[href="cave.php?id=193201"] div.cave-grid>img {
-content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b69e1247-3017-498d-8592-5393b6421502/djn7afd-33d46dd6-bba4-4dca-8de8-b0b5e062ad29.png/v1/fill/w_1111,h_719,q_70,strp/spinosaurus_2025_by_ember_newcomer_djn7afd-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI0MyIsInBhdGgiOiIvZi9iNjllMTI0Ny0zMDE3LTQ5OGQtODU5Mi01MzkzYjY0MjE1MDIvZGpuN2FmZC0zM2Q0NmRkNi1iYmE0LTRkY2EtOGRlOC1iMGI1ZTA2MmFkMjkucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.M2baeOpnDHl3Ay_RePFYkmZkU14ZjMGo-OZ-G85aTds')!important;
+a[href="cave.php?id=337232"] div.cave-grid>img {
+content: url('https://preview.redd.it/my-spinosaurus-fan-art-from-throughout-the-years-v0-r69ufwmwnv9h1.jpg?width=1080&crop=smart&auto=webp&s=ace5f0ddfe337ebec6c52f1f05d266f66b2c9268')!important;
 object-fit: cover !important;
-object-position: center 20% !important;
+object-position: center 10% !important;
 width: 100% !important;
 height: 100px !important;
 }
