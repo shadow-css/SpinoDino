@@ -547,31 +547,6 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
 .navbar-nav {
  padding-left: 95px !important;
 }
-
-/* PAGEDOLLS - Super important! */
-.container.main::after {
-content: "" !important;
-background-image: url('IMG HERE') !important;
-background-size: contain !important;
-background-repeat: no-repeat !important;
-position: fixed !important;
-display: block !important;
-width: 250px !important;
-height: 250px !important;
-right: 20px !important;
-bottom: 10px !important;
-z-index: 100 !important;
-pointer-events: none !important;
-}
-
-@media only screen and (max-width: 768px) {
-.container.main::after {
-width: 150px !important;
-height: 150px !important;
-right: 5px !important;
-bottom: 5px !important;
-}
-}
  
 /* TEXT BOXES & BUTTONS */
  
