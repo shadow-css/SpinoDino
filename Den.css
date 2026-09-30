@@ -613,7 +613,7 @@ img[src*="beetle"]:hover, img[src*="gb.png"]:hover, img[src*="sb.png"]:hover {
 
 /* Here’s where the images start */
 div.cave-grid>img {
-content: url('https://imagerenderer.com/images/rendered/default/print/8/5/break/images/artworkimages/medium/2/spinosaurus-daniel-eskridge.jpg')!important;
+content: url('https://i.postimg.cc/cH1jwf7t/image.png')!important;
 object-fit: cover !important;
 object-position: center 60% !important;
 width: 100% !important;
@@ -630,7 +630,7 @@ height: 70px !important;
 
 
 a[href="cave.php?id=395185"] div.cave-grid>img {
-content: url('https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-6/498316872_2212065282578454_3661884795625726759_n.jpg?stp=dst-jpg_tt6&cstp=mx800x450&ctp=s800x450&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=3JPY1g0jXesQ7kNvwHq8rKo&_nc_oc=AdoVOKr49s_aKK_C7-PmyWFmFZpIU1cFuM-peQbypTVoSwbbwPiFh4Qy8SAGb2MIpG4&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=Fk_kd264C08-oOSTokLAsw&_nc_ss=7b289&oh=00_AQK9tXjYNHfwEQlzR1c9riF5UVVOW_9T4n78YXbdEL6M5w&oe=6AABA958')!important;
+content: url('https://i.postimg.cc/pLLHM91L/image.png')!important;
 object-fit: cover !important;
 object-position: center 1% !important;
 width: 100% !important;
