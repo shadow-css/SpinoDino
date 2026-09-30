@@ -632,7 +632,7 @@ height: 70px !important;
 a[href="cave.php?id=395185"] div.cave-grid>img {
 content: url('https://i.postimg.cc/pLLHM91L/image.png')!important;
 object-fit: cover !important;
-object-position: center 1% !important;
+object-position: center 10% !important;
 width: 100% !important;
 height: 100px !important;
 }
